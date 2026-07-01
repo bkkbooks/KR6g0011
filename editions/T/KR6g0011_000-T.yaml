@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6g0011/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大涅槃經義記卷第四
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2764B.xml
+    old_id: T85n2764B
+hash: sha256:f35a6647bc92237177e62a399b9d4fb907820ed1c156fae8828b889beb54eedf

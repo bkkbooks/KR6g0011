@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6g0011/v1
+canonical_location: https://kanripo.org/bkk/KR6g0011/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大涅槃經義記卷第四
+  identifiers:
+    alt_id:
+    - T85n2764B
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2764B.xml
+    old_id: T85n2764B
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0011_000.yaml, hash: 'sha256:f35a6647bc92237177e62a399b9d4fb907820ed1c156fae8828b889beb54eedf'}
+  - {seq: 4, filename: KR6g0011_004.yaml, hash: 'sha256:0e218b3ef49ed9672dff3b08323f86990380def2b47461f8af743624659b5a07'}
+  markers:
+  - {seq: 4, role: markers, filename: assets/KR6g0011_004.markers.yaml, hash: 'sha256:258c206e462b957ecaa9004bee64adbe8a085704f0603f16a46500f6ccef0e54'}
+table_of_contents:
+- ref:
+    seq: 4
+    marker_id: KR6g0011_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 14567
+  label: 大涅槃經義記卷第四
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6g0011_T_004-mulu-1
+    span:
+    - body
+    - 10203
+    - 10203
+  label: 憍陳如品
+  type: mulu
+  level: 1
+hash: sha256:4536d2f9b564ebe8e6b4b7bedc389ae3538e55c69bb8909f1c00f752601aa36f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
